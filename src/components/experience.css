@@ -1,0 +1,96 @@
+.experience-project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  background-color: transparent;
+}
+
+.project-content {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  width: 90%;
+  max-width: 1200px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 25px rgba(0, 191, 255, 0.15);
+}
+
+.project-details {
+  flex: 1;
+  color: white;
+}
+
+.project-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.project-image img {
+  width: 1000px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 173, 255, 0.15);
+}
+
+.experience-project.flipped .project-content {
+  border-right: 3px solid rgba(0, 173, 255, 0.6);
+}
+
+.experience-project.notflipped .project-content {
+  border-left: 3px solid rgba(0, 173, 255, 0.6);
+}
+
+.logo {
+  height: 70px;
+}
+
+.company-name {
+  font-size: 3rem; 
+  font-weight: 600;
+  color: white;
+}
+
+.project-heading {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.project-links {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.project-link {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: color 0.2s ease;
+}
+
+.project-link:hover {
+  color: white !important;
+}
+
+.project-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #ff2e63, #6c1aff);
+  transition: width 0.3s ease;
+}
+
+.project-link:hover::after {
+  width: 100%;
+}
