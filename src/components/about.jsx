@@ -1,4 +1,4 @@
-import './About.css';
+import './about.css';
 import DonatelloGif from '/src/images/donatello.gif'
 import ReactIcon from '/src/images/react.png'
 import HtmlIcon from '/src/images/html.png'

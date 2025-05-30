@@ -1,4 +1,4 @@
-import './Resources.css';
+import './resources.css';
 import LinkedInIcon from '/src/images/linkedinicon.webp';
 import LsuIcon from '/src/images/lsuicon.png';
 import GoogleDocsIcon from '/src/images/googledocsicon.png';
