@@ -1,7 +1,6 @@
 .about-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  min-height: 100vh;
   color: white;
   align-items: start;
 }
@@ -71,4 +70,45 @@
   max-width: 500px;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+  }
+
+  .about-text-inner {
+    width: 100%;
+    max-width: 100%;
+    padding: 1rem;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .donatello {
+    max-width: 200px;
+    margin: 0 auto 1rem;
+    display: block;
+    padding-top: 1.5rem;
+  }
+
+  .about-icons {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 1rem;
+  }
+
+  .icon-box {
+    width: 95%;
+  }
+
+  .icon-box img {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-bottom: 6px;
+}
 }

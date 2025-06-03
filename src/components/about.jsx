@@ -13,7 +13,7 @@ import SqlIcon from '/src/images/sql.png'
 const About = () => {
   return (
     <>
-    <div className="header-wrapper" id="about">
+    <div className="header-wrapper"  style={{ paddingTop: "4rem" }} id="about">
         <p className="header">About</p>
     </div>
     <section className="about-section">

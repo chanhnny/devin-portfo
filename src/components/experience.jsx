@@ -7,8 +7,8 @@ import BrBytesLogo from '/src/images/brbyteslogo.png';
 const Experience = () => {
     return (
         <>
-        <div className="header-wrapper" id="experience">
-            <p className="header">Experience</p>
+        <div className="header-wrapper" style={{ paddingTop: "4rem" }} id="experience">
+            <p className="header" >Experience</p>
         </div>
 
         <section className="experience-project notflipped">

@@ -35,12 +35,13 @@ html, body {
 }
 
 .hero-text {
-  font-size: 48px;
+  font-size: clamp(1.5rem, 5vw, 3rem);
+  margin-bottom: -2rem;
 }
 
 .hero-text2 {
-  font-size: 48px;
-  margin-top: -3rem;
+  font-size: clamp(1.5rem, 5vw, 3rem);
+  
 }
 
 .header {
@@ -63,4 +64,14 @@ html, body {
 .header-wrapper {
   text-align: center;
   scroll-margin-top: 5rem;
+  width: 100vw;
+}
+
+@media(max-width: 768px) {
+  .hero-content {
+    padding: 1rem 0.5rem;
+  }
+  .hero-text {
+    margin-bottom: -1rem;
+  }
 }

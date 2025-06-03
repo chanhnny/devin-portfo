@@ -9,10 +9,9 @@
 .project-content {
   display: flex;
   gap: 3rem;
-  align-items: center;
   justify-content: space-between;
   padding: 2rem;
-  width: 90%;
+  width: 90vw;
   max-width: 1200px;
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 12px;
@@ -23,6 +22,7 @@
 .project-details {
   flex: 1;
   color: white;
+  font-weight: 500;
 }
 
 .project-image {
@@ -93,4 +93,35 @@
 
 .project-link:hover::after {
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .experience-project {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    text-align: center;
+    align-items: center;
+    padding-top: 3rem;
+  }
+
+  .project-content {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .project-details {
+    width: 100%;
+    max-width: 80%;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+   .project-image {
+    display: none;
+  }
 }
