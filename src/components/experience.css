@@ -117,11 +117,18 @@
     width: 100%;
     max-width: 80%;
     text-align: left;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.6;
   }
 
    .project-image {
     display: none;
   }
+   .logo {
+    width: auto;
+    height: 50px;
+  }
+   .company-name{
+    font-size: 2rem;
+   }
 }

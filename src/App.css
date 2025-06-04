@@ -74,4 +74,7 @@ html, body {
   .hero-text {
     margin-bottom: -1rem;
   }
+  .header {
+    font-size: 2rem;
+  }
 }
