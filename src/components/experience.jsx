@@ -41,7 +41,7 @@ const Experience = () => {
                     <img className="logo" src={BrBytesLogo}/>
                     <h3>Web Developer Intern</h3>
                     <p>
-                        Frontend and backend development for the BRBytes home page, teacher's portal, and lesson editor. Built responsive features with Alpine JS to improve usability and navigation. POSTMAN APIs to support lesson creation and updates. Redesign of the backend database to support new features and align with the platform’s evolving needs.
+                        Frontend and backend development for the BRBytes home page, teacher's portal, and lesson editor. Built responsive features across all pages focusing on usability and navigation. Postman APIs to support lesson creation and updates. Redesign of the backend database to support new features and align with the platform’s evolving needs.
                     </p>
                 </div>
                 <div className="project-image">
