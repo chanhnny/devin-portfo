@@ -36,7 +36,7 @@ function App() {
           <p className="hero-text" data-aos="fade-right">
             Hello, I'm Devin.</p>
             <p className="hero-text2" data-aos="fade-left">
-            I'm a Software Engineer. Above all, an Innovator.
+            I'm a Software Engineer. More so, an Innovator.
           </p>
         </div>
       </div>

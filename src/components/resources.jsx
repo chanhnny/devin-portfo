@@ -3,7 +3,8 @@ import LinkedInIcon from '/src/images/linkedinicon.webp';
 import LsuIcon from '/src/images/lsuicon.png';
 import GoogleDocsIcon from '/src/images/googledocsicon.png';
 import OutlookIcon from '/src/images/outlookicon.png';
-import Transcript from '/src/assets/DevinDaoTranscript.pdf';
+import Transcript from '/src/assets/DevinDaoTranscriptLSU.pdf';
+import Resume from '/src/assets/DevinDaoLSU.resume.pdf';
 
 const Resources = () => {
     return (
@@ -37,13 +38,11 @@ const Resources = () => {
 
             <div className="resource-card" data-aos="zoom-out-down">
                 <img src={GoogleDocsIcon} alt="Google Docs" className="resource-icon" />
-                <a
-                href="https://docs.google.com/document/d/1_FEAUiQ59jtpFAVxikdJplWvZ-7EK0E7l5nCdHwcooA/edit?tab=t.0"
-                target="_blank"
+                <a href={Resume}
+                target="_blank" 
                 rel="noopener noreferrer"
-                className="resource-link"
-                >
-                Resume
+                className="resource-link">
+                View Resume
                 </a>
             </div>
 
