@@ -1,6 +1,6 @@
 .about-section {
   display: flex;
-  justify-content: space-between; /* spread left and right */
+  gap: 5rem;
   align-items: center;
   padding: 0 5rem;
 }
@@ -76,7 +76,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
   }
 
   .about-text-inner {
