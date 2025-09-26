@@ -39,11 +39,12 @@
     text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
   .footer-columns {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 1rem;
   }
 
   .footer-column {
